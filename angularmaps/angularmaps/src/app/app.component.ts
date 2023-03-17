@@ -7,16 +7,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angularmaps Ali Can Yücel';
   zoom: number = 14; // yakınlaştırır
-  // initial center position for the map
-  lat: number = 40.0430556 // enlem bilgisi
-  lng: number = 32.88663614; // boylam bilgisi
-  lat2: number = 40.0424659 // enlem bilgisi
-  lng2: number = 32.907433; // boylam bilgisi
-  icon={ //ikonun boyutunu da yarlayabiliyoruz
-    url:'https://upload.wikimedia.org/wikipedia/tr/8/85/Apple_Hesap_makinesi_Calculator-icon.png',
-    scaledSize:{widht:50,height:60}
-  }
-  // kooridnat verir
+locations=[
+ { lat:40.0493036,lng:32.8935028},{
+  lat:40.0493036,lng:32.8935028},
+  {lat:40.0493036,lng:32.8935028},
+  {lat:40.0405646,lng:32.9116131}
+]
+    // kooridnat verir
   mapclick(event:any){
     console.log(event)
   }
@@ -26,7 +23,11 @@ export class AppComponent {
   }
   //kooridnat verir ve yakınlaştırır
   mapdoubleclick(event:any){
-    console.log(event)
+    const obj={
+      lat:event.coords.lat,
+      lng:event.coords.lng,
+    };
+  this.locations.push(obj);
   }
   // opacity:saydamlık veriyoruz
   // disabledoubleclikzoom:çift tıklarsam yakınlaştırma true yada false değer alır
