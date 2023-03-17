@@ -1,11 +1,9 @@
 <div class="content">
     <h2>Google Maps Ali Can Yücel</h2>
-    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom" [mapDraggable]="false" (mapClick)="mapclick($event)"  [disableDoubleClickZoom]="true"  (mapDblClick)="mapdoubleclick($event)">
-        <agm-marker
-        [latitude]="lat" [longitude]="lng" [markerDraggable]="true" [label]="'Haluk Levent'" (markerClick)="markerClick($event)"
+    <agm-map [latitude]="locations[0].lat" [longitude]="locations[0].lng" [zoom]="zoom" [mapDraggable]="true" (mapClick)="mapclick($event)"  [disableDoubleClickZoom]="true"  (mapDblClick)="mapdoubleclick($event)">
+        <agm-marker *ngFor="let location of locations"
+        [latitude]="location.lat" [longitude]="location.lng" [markerDraggable]="true"  (markerClick)="markerClick($event)"
         ></agm-marker>
-        <agm-marker
-        [latitude]="lat2" [longitude]="lng2" [visible]="true" [markerDraggable]="true" [iconUrl]="'icon'" [label]="'Ali Can Yücel'" [opacity]="0.9" [title]="'Ali Can Yücel'"
-        ></agm-marker>
+       
     </agm-map>
 </div>
