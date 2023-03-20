@@ -1,0 +1,20 @@
+https://developers.google.com/maps/documentation/javascript/custom-markers?hl=tr
+marker 1: https://www.google.com/url?sa=j&url=https%3A%2F%2Fcdn1.iconfinder.com%2Fdata%2Ficons%2Fengineers7%2F102%2FUntitled-28-512.png&uct=1678971089&usg=H_q0SvI2nOQs4xpXgXSAwYabkIY.&source=meet
+poi viisble:https://developers.google.com/maps/documentation/javascript/examples/hiding-features
+marker 2:
+poileri gizleme stil ile: https://console.cloud.google.com/google/maps-apis/studio/styles/new/edit?project=alican-380420
+  hepsi
+https://developers.google.com/maps/documentation/javascript/custom-markers?hl=tr
+Erhan Bursoy23:02
+https://cdn1.iconfinder.com/data/icons/engineers7/102/Untitled-28-512.png
+Erhan Bursoy23:04
+https://cdn.pixabay.com/photo/2022/06/06/14/39/marker-7246182_960_720.png
+Siz23:06
+fant awesome fa iconew
+Erhan Bursoy23:17
+https://developers.google.com/maps/documentation/javascript/examples/hiding-features
+https://stackoverflow.com/questions/7538444/how-do-i-remove-default-markers
+Erhan Bursoy23:21
+https://console.cloud.google.com/google/maps-apis/studio/styles?pli=1&project=first-gcp-project-209707
+Erhan Bursoy23:22
+https://mapstyle.withgoogle.com/
